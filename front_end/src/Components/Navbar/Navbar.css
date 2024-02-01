@@ -42,6 +42,11 @@
     text-underline-offset: 20px;
 } */
 
+.nav-menu .link{
+    text-decoration: none;
+    color: #626262;
+}
+
 .nav-menu hr{
     border: none;
     width: 100%;
@@ -85,3 +90,5 @@
     background-color: red;
     color: white;
 }
+
+
