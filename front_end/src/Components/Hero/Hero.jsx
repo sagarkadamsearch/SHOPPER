@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="hero-right">
-               {/* <img src={hero_image} alt="hero_image" /> */}
+              {/* Imge directly give in css in baground */}
             </div>
         </div>
     );

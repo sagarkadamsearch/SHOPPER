@@ -5,6 +5,10 @@
 
 body {
   margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1750px;
+  margin: auto;
   font-family:'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
