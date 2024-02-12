@@ -1,4 +1,5 @@
 import React from 'react';
+import './CSS/LoginSignup.css';
 
 const LoginSignup = () => {
     return (
@@ -10,12 +11,13 @@ const LoginSignup = () => {
                     <input type="email" placeholder='Email address' />
                     <input type="password" placeholder='Password' />
                 </div>
-                <button>Login</button>
-                <p className="loginsignup-login">Already have an account? <span>Login here</span></p>
                 <div className="loginsignup-agree">
                     <input type="checkbox" name='' id='' />
-                    <p>By continuing, i agree to the</p>
+                    <p>I agree to the terms of use & privacy policy.</p>
                 </div>
+                <button>Create Account</button>
+                <p className="loginsignup-login">Already have an account? <span>Login here</span></p>
+                
             </div>
         </div>
     );
