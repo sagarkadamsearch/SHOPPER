@@ -1,6 +1,7 @@
 import React from 'react';
 import './ReletedProducts.css';
 import Item from '../Item/Item';
+import data_product from '../Assets/data';
 
 const ReletedProducts = (props) => {
     return (
@@ -8,13 +9,7 @@ const ReletedProducts = (props) => {
             <h1>Releted Products</h1>
             <hr />
             <div className="reletedproducts-item">
-              {props?.all_product.map((e,index)=>
-               {
-                if(e.category===props.category){
-                return <Item {...e}/>
-                }
-               }
-               )}
+              {data_product.map((e,index)=> <Item key={index} {...e}/>)}
             </div>
         </div>
     );
