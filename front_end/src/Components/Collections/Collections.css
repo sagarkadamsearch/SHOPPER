@@ -38,3 +38,37 @@
         margin-top: 30px;
     }
 }
+
+@media all and (max-width:1024px){
+    .collections h1{
+        font-size: 30px;
+    }
+    .collections hr{
+        width: 120px;
+        height: 3px;
+    }
+    .collections-item{
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media all and (max-width:800px){
+    .collections h1{
+        font-size: 20px;
+    }
+    .collections hr{
+        width: 100px;
+    }
+    .collections-item{
+        gap: 5px;
+    }
+}
+
+@media all and (max-width:500px){
+    .collections-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    } 
+}
